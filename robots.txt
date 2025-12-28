@@ -1,7 +1,6 @@
 # START nuxt-robots (indexable)
 User-agent: *
-Allow: /
-Disallow: /real-estate/admin/
+Disallow: 
 
 Sitemap: https://relocatetosancarlos.com/sitemap.xml
 # END nuxt-robots
