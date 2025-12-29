@@ -1,6 +1,6 @@
 {
-  "date": "2025-12-29T02:54:23.035Z",
-  "preset": "cloudflare-pages",
+  "date": "2025-12-29T03:17:51.204Z",
+  "preset": "netlify-static",
   "framework": {
     "name": "nuxt",
     "version": "3.19.2"
@@ -9,10 +9,7 @@
     "nitro": "2.12.6"
   },
   "commands": {
-    "preview": "npx wrangler pages dev .",
-    "deploy": "npx wrangler pages deploy ."
+    "preview": "npx serve ."
   },
-  "config": {
-    "cloudflare": {}
-  }
+  "config": {}
 }
