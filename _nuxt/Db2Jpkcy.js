@@ -1,1 +1,0 @@
-import{c as o}from"./DnLZ2Mvm.js";import{e as n,c as r,o as t,A as c,l,i as p}from"#entry";const _=n({__name:"CardContent",props:{class:{}},setup(s){const e=s;return(a,m)=>(t(),r("div",{class:l(p(o)("p-6 pt-0",e.class))},[c(a.$slots,"default")],2))}});export{_};
