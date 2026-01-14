@@ -1,0 +1,6 @@
+import{c as l}from"./Ct-ByJOb.js";import{_ as i}from"./-C_YfklF.js";import{_ as m}from"./_wKlP4S0.js";import{c as o,s as n,o as a,F as f,i as u,h as s,w as c,b as _,l as h,u as k,k as p}from"#entry";/**
+ * @license lucide-vue-next v0.488.0 - ISC
+ *
+ * This source code is licensed under the ISC license.
+ * See the LICENSE file in the root directory of this source tree.
+ */const C=l("github",[["path",{d:"M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4",key:"tonef"}],["path",{d:"M9 18c-4.51 2-5-2-7-2",key:"9comsn"}]]),L={__name:"Socials",props:{socialLinks:{type:Array,default:()=>[]},columnOnMobile:{type:Boolean,default:!1}},setup(t){return(d,y)=>{const r=i;return t.socialLinks?(a(),o("div",{key:0,class:p([{"flex-col lg:flex-row":t.columnOnMobile},"flex gap-2 mt-3"])},[(a(!0),o(f,null,u(t.socialLinks,e=>(a(),s(k(m),{key:e.href,variant:"default",size:"icon",as:"a",href:e.href,target:"_blank",class:"hover:scale-105 trasform"},{default:c(()=>[_(r,null,{default:c(()=>[e?.icon?(a(),s(h(e?.icon),{key:0,class:"w-5 h-5"})):n("",!0)]),_:2},1024)]),_:2},1032,["href"]))),128))],2)):n("",!0)}}};export{C as G,L as _};
