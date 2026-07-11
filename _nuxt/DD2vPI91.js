@@ -1,1 +1,0 @@
-import{c as o,o as r,l as s}from"./ClJhwFTl.js";const n=["innerHTML"],c={__name:"Html",props:{content:{type:String},useProse:{type:Boolean}},setup(e){return(t,l)=>(r(),o("div",{innerHTML:e.content,class:s(["content-renderer",{"prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto dark:prose-invert":e.useProse}])},null,10,n))}};export{c as _};
