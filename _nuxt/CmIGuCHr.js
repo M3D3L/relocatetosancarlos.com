@@ -1,0 +1,1 @@
+import{defineStore as s}from"./D5cvZwRA.js";import"./8xEkIL9V.js";const u=s("debug",{state:()=>({queries:[]}),actions:{addQuery(e,r){this.queries.push({query:e,result:r})},removeQueryAt(e){e>=0&&e<this.queries.length&&this.queries.splice(e,1)},clearQueries(){this.queries=[]}},persist:!0});export{u as useDebugStore};
