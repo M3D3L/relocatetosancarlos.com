@@ -1,0 +1,1 @@
+import{Zn as e,b as t,mt as n}from"./DVRkMeDb.js";var r=[`innerHTML`],i={__name:`ContainersHtml`,props:{content:{type:String},useProse:{type:Boolean}},setup(i){return(a,o)=>(n(),t(`div`,{innerHTML:i.content,class:e([`content-renderer`,{"prose prose-sm sm:prose lg:prose-lg xl:prose-xl mx-auto dark:prose-invert":i.useProse}])},null,10,r))}};export{i as t};
