@@ -1,0 +1,108 @@
+import{i as e}from"./CKDPq_Kn.js";import{s as t}from"./CMmVH9bs.js";import{$n as n,D as r,E as i,On as a,Yt as o,Zn as s,_ as c,b as l,bt as u,ct as d,et as f,g as p,k as m,mt as h,o as g,qt as _,tr as v,v as y,vn as b,xt as x,y as S,z as C}from"./DVRkMeDb.js";import{en as w,qt as ee}from"./5fdh-mci.js";import{t as T}from"./CtgmuAB1.js";import{t as E}from"./BesOh1B8.js";import{n as D}from"./BljEo-FI.js";import{t as O}from"./1cmSHSI7.js";import{t as k}from"./CtkAk9Og.js";import{r as A,t as te}from"./Btzn73TX.js";import{a as j,f as M,i as N,n as P,r as F,t as I}from"./Bm-cDwl0.js";import{n as L,t as R}from"./Bdk6kV2J.js";import{t as z}from"./BDNMzG2s.js";import{t as B}from"./DGLVZK9b.js";import{t as V}from"./Bqoua7fM.js";import{t as H}from"./CUkZqU-W.js";var U=m({__name:`DialogTrigger`,props:{asChild:{type:Boolean,required:!1},as:{type:null,required:!1,default:`button`}},setup(t){let n=t,r=M(),{forwardRef:i,currentElement:o}=A();return r.contentId||=e(void 0,`reka-dialog-content`),d(()=>{r.triggerElement.value=o.value}),(e,o)=>(h(),y(a(te),f(n,{ref:a(i),type:t.as===`button`?`button`:void 0,"aria-haspopup":`dialog`,"aria-expanded":a(r).open.value||!1,"aria-controls":a(r).open.value?a(r).contentId:void 0,"data-state":a(r).open.value?`open`:`closed`,onClick:a(r).onOpenToggle}),{default:_(()=>[x(e.$slots,`default`)]),_:3},16,[`type`,`aria-expanded`,`aria-controls`,`data-state`,`onClick`]))}}),W=B(`arrow-right`,[[`path`,{d:`M5 12h14`,key:`1ays0h`}],[`path`,{d:`m12 5 7 7-7 7`,key:`xquz4c`}]]),G=B(`lock`,[[`rect`,{width:`18`,height:`11`,x:`3`,y:`11`,rx:`2`,ry:`2`,key:`1w4ew1`}],[`path`,{d:`M7 11V7a5 5 0 0 1 10 0v4`,key:`fwvmzm`}]]),K=B(`shield-check`,[[`path`,{d:`M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z`,key:`oel41y`}],[`path`,{d:`m9 12 2 2 4-4`,key:`dzmm74`}]]),q={key:0,class:`relative overflow-hidden md:w-2/5 aspect-[16/9] md:aspect-auto`},J=[`src`,`alt`],Y={class:`flex flex-col justify-between w-full p-6 md:w-3/5 md:p-8`},X={class:`flex items-center gap-3 mb-3`},Z={class:`flex items-center gap-1.5 text-xs font-medium text-muted-foreground`},Q={class:`mb-3 text-xl font-bold leading-tight transition-colors line-clamp-2 group-hover:text-primary`},ne=[`innerHTML`],re={class:`flex items-center gap-2 mt-4 text-sm font-semibold transition-all text-primary group-hover:gap-3`},ie=Object.assign(m({__name:`BlogHorizontal`,props:{title:{},description:{},created:{},slug:{},collectionId:{},id:{},coverImage:{},index:{},baseUrl:{}},setup(e){let n=e,o=t(),s=p(()=>new Date(n.created).toLocaleDateString(`en-US`,{year:`numeric`,month:`short`,day:`numeric`})),u=p(()=>`${n.baseUrl||``}/blog${n.slug}`),d=p(()=>`${o.public.pocketbaseUrl}api/files/${n.collectionId}/${n.id}/${n.coverImage}`),f=p(()=>n?.description?.trim()||``);return(t,n)=>{let o=E;return h(),y(a(O),{class:`w-full overflow-hidden transition-all duration-300 border shadow-md group hover:shadow-xl hover:-translate-y-1 border-border/40 bg-card/50 backdrop-blur-sm`},{default:_(()=>[r(a(k),{class:`p-0`},{default:_(()=>[r(o,{to:a(u),class:`flex flex-col w-full h-full md:flex-row`},{default:_(()=>[e.coverImage?(h(),l(`div`,q,[a(d)?(h(),l(`img`,{key:0,src:a(d),alt:e.title,width:`600`,height:`338`,loading:`lazy`,class:`object-cover w-full h-full transition-transform duration-700 group-hover:scale-110`,decoding:`async`},null,8,J)):S(``,!0),n[0]||=c(`div`,{class:`absolute inset-0 transition-opacity duration-500 opacity-0 bg-gradient-to-t from-black/60 via-black/20 to-transparent group-hover:opacity-100`},null,-1)])):S(``,!0),c(`div`,Y,[c(`div`,null,[c(`div`,X,[c(`span`,Z,[r(a(V),{class:`w-3.5 h-3.5`}),i(` `+v(a(s)),1)])]),c(`h3`,Q,v(e.title),1),c(`p`,{class:`text-sm leading-relaxed text-muted-foreground line-clamp-3`,innerHTML:a(f)},null,8,ne)]),c(`div`,re,[n[1]||=c(`span`,null,`Read More`,-1),r(a(W),{class:`w-4 h-4 transition-transform duration-300 group-hover:translate-x-1`})])])]),_:1},8,[`to`])]),_:1})]),_:1})}}}),{__name:`CardsBlogHorizontal`}),ae=m({__name:`DialogTrigger`,props:{asChild:{type:Boolean},as:{}},setup(e){let t=e;return(e,r)=>(h(),y(a(U),n(C(t)),{default:_(()=>[x(e.$slots,`default`)]),_:3},16))}}),oe={class:`max-h-[60vh] overflow-y-auto px-1 mt-4`},se=[`innerHTML`],ce=m({__name:`Modal`,props:{htmlContent:{type:String,default:``},title:{type:String,default:``},description:{type:String,default:``}},setup(e,{expose:t}){let n=b(!1);return t({toggleModal:e=>{n.value=e===void 0?!n.value:e}}),(t,o)=>(h(),y(a(j),{open:n.value,"onUpdate:open":o[0]||=e=>n.value=e},{default:_(()=>[r(a(ae),{"as-child":``},{default:_(()=>[x(t.$slots,`button`)]),_:3}),r(a(N),null,{default:_(()=>[r(a(P),null,{default:_(()=>[r(a(I),null,{default:_(()=>[i(v(e.title),1)]),_:1}),r(a(F),null,{default:_(()=>[i(v(e.description),1)]),_:1})]),_:1}),c(`div`,oe,[e.htmlContent?(h(),l(`div`,{key:0,innerHTML:e.htmlContent,class:`prose max-w-none`},null,8,se)):S(``,!0),x(t.$slots,`default`)])]),_:3})]),_:3},8,[`open`]))}}),le=`<section>
+    <h2>1. Information I Collect</h2>
+    <p>I collect information to provide and improve my services, communicate with you, and understand how my website is used. The types of information I collect include:</p>
+    
+    <h3>Personal Information You Voluntarily Provide</h3>
+    <ul>
+      <li><strong>Newsletter Subscription:</strong> I collect your email address. You may also provide your name.</li>
+      <li><strong>Blog Comments:</strong> I collect your name, email address, comment content, and optionally your website URL.</li>
+      <li><strong>Contact Forms/Direct Communication:</strong> I collect your name, email address, and message content.</li>
+    </ul>
+
+    <h3>Automatically Collected Information (Usage Data)</h3>
+    <ul>
+      <li>IP address</li>
+      <li>Browser type and version</li>
+      <li>Operating system</li>
+      <li>Referring and exit pages</li>
+      <li>Dates and times of access</li>
+      <li>Time spent on pages</li>
+      <li>Clickstream data</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>2. How I Use Your Information</h2>
+    <ul>
+      <li>To provide and maintain the website</li>
+      <li>To send newsletter updates</li>
+      <li>To enable blog commenting</li>
+      <li>To respond to inquiries</li>
+      <li>To improve the website and content</li>
+      <li>To protect against fraud and enforce terms</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Sharing Your Information</h2>
+    <p>I do not sell, rent, or trade your personal information. I may share it only in the following cases:</p>
+    <ul>
+      <li><strong>With Service Providers:</strong> For website operation, email marketing, and analytics.</li>
+      <li><strong>For Legal Reasons:</strong> To comply with law, protect rights, investigate wrongdoing, or ensure safety.</li>
+      <li><strong>With Your Consent:</strong> Only for purposes you explicitly agree to.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Data Retention</h2>
+    <p>I retain data only as long as needed for the purpose it was collected, or for legal/reporting reasons:</p>
+    <ul>
+      <li><strong>Newsletter:</strong> Retained until you unsubscribe.</li>
+      <li><strong>Blog Comments:</strong> May be kept indefinitely unless removal is requested.</li>
+      <li><strong>Contact Submissions:</strong> Retained for a reasonable response window.</li>
+      <li><strong>Usage Data:</strong> Typically retained briefly for analytics.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Your Choices and Rights</h2>
+    <p>Depending on applicable laws, you may have the right to:</p>
+    <ul>
+      <li>Access your personal information</li>
+      <li>Request corrections</li>
+      <li>Request deletion ("right to be forgotten")</li>
+      <li>Unsubscribe from newsletters</li>
+      <li>Object to certain data processing</li>
+      <li>Withdraw consent at any time</li>
+    </ul>
+    <p>To exercise any of these rights, please contact me at the email listed below.</p>
+  </section>
+
+  <section>
+    <h2>6. Cookies and Tracking Technologies</h2>
+    <p>My website may use cookies and similar technologies:</p>
+    <ul>
+      <li><strong>Necessary Cookies:</strong> Enable core site functionality.</li>
+      <li><strong>Analytics Cookies:</strong> Understand usage and performance (e.g., Google Analytics).</li>
+    </ul>
+    <p>You can manage cookie preferences through your browser settings. Disabling cookies may affect site functionality.</p>
+  </section>
+
+  <section>
+    <h2>7. Links to Other Websites</h2>
+    <p>This site may contain links to third-party websites. I am not responsible for their privacy practices or content. Always review their policies.</p>
+  </section>
+
+  <section>
+    <h2>8. Security of Your Information</h2>
+    <p>I use reasonable measures to protect your data but cannot guarantee absolute security. Transmission over the internet involves risk.</p>
+  </section>
+
+  <section>
+    <h2>9. Children's Privacy</h2>
+    <p>This site is not intended for children under 13. I do not knowingly collect data from them. If you believe a child has provided data, contact me for removal.</p>
+  </section>
+
+  <section>
+    <h2>10. Changes to This Privacy Policy</h2>
+    <p>I may update this Privacy Policy. Changes will be posted on this page with a revised "Last Updated" date. Review it periodically for updates.</p>
+  </section>
+
+  <section>
+    <h2>11. Contact Me</h2>
+    <p>If you have questions or concerns about this policy, reach out at:</p>
+    <address>
+      Guillermo Medel<br />
+      <a href="mailto:GuillermoMedel@GuillermoMedel.com">GuillermoMedel@GuillermoMedel.com</a>
+    </address>
+  </section>`,ue={class:`space-y-2`},de={class:`space-y-2`},fe={class:`flex items-center`},pe={for:`newsletter-consent`,class:`ml-2 text-sm`},me={class:`cursor-pointer text-primary hover:underline`},he={class:`border-t border-white/10 pt-4`},ge={class:`flex flex-col items-center space-y-2 text-center`},_e={class:`flex space-x-2`},ve={class:`p-2 rounded-lg bg-primary-600/10`},ye={class:`p-2 rounded-lg bg-primary-600/10`},be=Object.assign(z(m({__name:`NewsletterHero`,props:{emailLabel:{},nameLabel:{},privacyLabel:{},privacyButton:{},buttonLabel:{}},setup(e){let t={hidden:{opacity:0,y:40},visible:{opacity:1,y:0,transition:{duration:.8,ease:[.16,1,.3,1]}}},n=b({email:``,name:``,consent:!1}),u=b(!1),d=b(null),{createItem:f}=T(),p=async()=>{if(!n.value.consent)d.value={type:`error`,text:`Please agree to the privacy policy`};else{u.value=!0,d.value=null;try{await f(`newsletterSubs`,{email:n.value.email,name:n.value.name,consent_given:!0,subscribed_at:new Date().toISOString()}),d.value={type:`success`,text:`Thank you for subscribing!`},n.value={email:``,name:``,consent:!1}}catch(e){console.error(`Subscription process failed:`,e),d.value={type:`error`,text:`Subscription failed. You may already be subscribed or the server is unavailable.`}}finally{u.value=!1}}};return(f,m)=>(h(),y(a(H).div,{variants:t,initial:`hidden`,animate:`visible`},{default:_(()=>[r(a(O),null,{default:_(()=>[r(a(k),{class:`p-6 space-y-6`},{default:_(()=>[c(`form`,{onSubmit:w(p,[`prevent`]),class:`space-y-4`},[c(`div`,ue,[r(a(R),{for:`newsletter-email`},{default:_(()=>[i(v(e.emailLabel),1)]),_:1}),r(a(L),{id:`newsletter-email`,modelValue:a(n).email,"onUpdate:modelValue":m[0]||=e=>a(n).email=e,type:`email`,placeholder:``,required:``,class:`bg-white/10 border-white/20 focus:ring-2 focus:ring-primary-500`},null,8,[`modelValue`])]),c(`div`,de,[r(a(R),{for:`newsletter-name`},{default:_(()=>[i(v(e.nameLabel),1)]),_:1}),r(a(L),{id:`newsletter-name`,modelValue:a(n).name,"onUpdate:modelValue":m[1]||=e=>a(n).name=e,type:`text`,placeholder:``,class:`bg-white/10 border-white/20 focus:ring-2 focus:ring-primary-500`},null,8,[`modelValue`])]),c(`div`,fe,[o(c(`input`,{id:`newsletter-consent`,"onUpdate:modelValue":m[2]||=e=>a(n).consent=e,type:`checkbox`,required:``,class:`w-4 h-4 rounded text-primary-600 bg-white/10 border-white/20 focus:ring-primary-500`},null,512),[[ee,a(n).consent]]),c(`label`,pe,[i(v(e.privacyLabel)+` `,1),r(ce,{title:`Privacy Policy`,description:`This Privacy Policy explains how information may be collected, used, and shared.`,htmlContent:a(le)},{button:_(()=>[c(`span`,me,v(e.privacyButton),1)]),_:1},8,[`htmlContent`])])]),r(a(D),{size:`lg`,class:`w-full`,disabled:a(u),type:`submit`},{default:_(()=>[i(v(a(u)?``:e.buttonLabel),1)]),_:1},8,[`disabled`])],32),a(d)?(h(),l(`div`,{key:0,class:s([`p-4 text-sm rounded-lg`,{"bg-green-900/50 text-green-300":a(d).type===`success`,"bg-red-900/50 text-red-300":a(d).type===`error`}])},v(a(d).text),3)):S(``,!0),c(`div`,he,[c(`div`,ge,[c(`div`,_e,[c(`div`,ve,[r(a(K),{class:`w-5 h-5 text-primary-400`})]),c(`div`,ye,[r(a(G),{class:`w-5 h-5 text-primary-400`})])])])])]),_:1})]),_:1})]),_:1}))}}),[[`__scopeId`,`data-v-2c06c4fa`]]),{__name:`SectionsNewsletterHero`}),xe={class:`flex flex-col w-full md:flex-row lg:flex-col`},Se={class:`grid content-center w-full px-2 mb-8 md:w-1/2 lg:w-full md:pr-16 lg:pr-0 md:mb-4 md:px-0`},Ce={class:`mb-2 text-2xl font-bold tracking-tight text-primary md:text-3xl lg:text-4xl`},we={class:`mt-3 text-sm line-clamp-3`},$=Object.assign(m({__name:`Subscribe`,props:{title:{type:String,default:`Join Newsletter`},description:{type:String,default:`Stay updated with the latest news, articles, and resources. Subscribe and never miss out!`},email:{type:String,default:`Email Address`},name:{type:String,default:`Name (Optional)`},privacy:{type:String,default:`I agree to receive emails and accept the`},privacyButton:{type:String,default:`privacy policy`},button:{type:String,default:`Subscribe Now`}},setup(e){return(t,n)=>{let i=be;return h(),l(`div`,xe,[c(`div`,Se,[c(`h2`,Ce,v(e.title),1),c(`p`,we,v(e.description),1)]),r(i,{"email-label":e.email,"name-label":e.name,"privacy-label":e.privacy,"privacy-button":e.privacyButton,"button-label":e.button,class:`w-full md:w-1/2 md:pl-2 lg:pl-0 lg:w-full`},null,8,[`email-label`,`name-label`,`privacy-label`,`privacy-button`,`button-label`])])}}}),{__name:`SectionsSubscribe`}),Te={class:`flex flex-col w-full min-h-screen gap-8 pb-16 lg:pb-24 lg:flex-row`,id:`main-content`},Ee={id:`right-rail`,"aria-labelledby":`sidebar-heading`,class:`w-full lg:w-1/3`},De={class:`lg:z-10 lg:sticky top-24`},Oe=Object.assign(m({__name:`FixedRail`,setup(e){let t={hidden:{opacity:0,y:40},visible:{opacity:1,y:0,transition:{duration:.8,ease:[.16,1,.3,1]}}};return(e,n)=>(h(),l(`div`,Te,[r(a(H).section,{variants:t,"aria-labelledby":`main-content-heading`,class:`w-full gap-4 lg:w-2/3`},{default:_(()=>[n[0]||=c(`h2`,{id:`main-content-heading`,class:`sr-only`},`Main content`,-1),x(e.$slots,`main`)]),_:3}),c(`aside`,Ee,[c(`div`,De,[n[1]||=c(`h2`,{id:`sidebar-heading`,class:`sr-only`},`Additional content`,-1),x(e.$slots,`right`)])])]))}}),{__name:`ContainersFixedRail`}),ke={class:`grid w-full gap-4`},Ae={class:`z-10 sticky-position top-16 md:grid hidden`},je=Object.assign(m({__name:`Blog`,props:{content:{type:Array,required:!0},baseUrl:{type:String},type:{type:String,default:`posts`},newsLetterModule:{type:Object,default:()=>({})}},setup(e){let t=e,{fetchCollection:i}=T(),a=b([]),o=async()=>{try{return await i(t.type,1,5,``,`-created`,``)}catch(e){return console.error(`Error fetching posts:`,e),[]}},s=async()=>{a.value=await o()};return d(async()=>{await s()}),(t,i)=>{let a=ie,o=$,s=Oe;return h(),y(s,null,{main:_(()=>[c(`div`,ke,[(h(!0),l(g,null,u(e.content,(t,n)=>(h(),y(a,{key:t.id,title:t.title,description:t.description,created:t.created,slug:t.slug,"collection-id":t.collectionId,id:t.id,"cover-image":t.cover_image,index:n,"base-url":e.baseUrl},null,8,[`title`,`description`,`created`,`slug`,`collection-id`,`id`,`cover-image`,`index`,`base-url`]))),128))])]),right:_(()=>[c(`div`,Ae,[r(o,n(C(e.newsLetterModule)),null,16)])]),_:1})}}}),{__name:`SectionsBlog`});export{$ as n,je as t};
