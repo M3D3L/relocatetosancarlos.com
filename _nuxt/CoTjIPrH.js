@@ -1,1 +1,0 @@
-import{On as e,Zn as t,b as n,k as r,mt as i,xt as a}from"./DVRkMeDb.js";import{r as o}from"./ClQdUGb3.js";var s=r({__name:`CardHeader`,props:{class:{type:[Boolean,null,String,Object,Array]}},setup(r){let s=r;return(r,c)=>(i(),n(`div`,{class:t(e(o)(`flex flex-col gap-y-1.5 p-6`,s.class))},[a(r.$slots,`default`)],2))}});export{s as t};
