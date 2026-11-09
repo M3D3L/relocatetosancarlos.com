@@ -1,0 +1,1 @@
+import"./CMmVH9bs.js";import"./Csu0mcaH.js";import"./Dd-cvdEt.js";function e(e){return new URL(globalThis.location.href)}export{e as t};
