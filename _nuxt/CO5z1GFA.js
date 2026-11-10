@@ -1,1 +1,0 @@
-import{k as e,mt as t,v as n}from"./DVRkMeDb.js";import{t as r}from"./DpKdcI4D.js";var i=e({__name:`lots`,setup(e){return(e,i)=>(t(),n(r,{type:`lots`}))}});export{i as default};

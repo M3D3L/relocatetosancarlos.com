@@ -1,0 +1,1 @@
+function e(e,t){let n={rentals:`rentas`,properties:`ventas`,lots:`terrenos`},r=t?e.replace(/^\/(rentals|properties|lots)\//,(e,t)=>`/${n[t]}/`):e;return`${t?`/bienes-raices`:`/real-estate`}${r}`}export{e as t};

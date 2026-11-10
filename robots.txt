@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://www.relocatetosancarlos.com/sitemap.xml
+Sitemap: https://relocatetosancarlos.com/sitemap.xml
