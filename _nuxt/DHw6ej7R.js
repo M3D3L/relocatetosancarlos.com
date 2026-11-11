@@ -1,0 +1,1 @@
+import{k as e,mt as t,v as n}from"./DVRkMeDb.js";import{t as r}from"./AerCGIjb.js";var i=e({__name:`Rentals`,setup(e){return(e,i)=>(t(),n(r,{type:`rentals`}))}});export{i as default};
